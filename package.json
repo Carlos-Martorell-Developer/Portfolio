@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Profesional portfolio  ## Descripción Este proyecto es un portfolio profesional, donde muestro mis avances en conocimeintos de los diferentes lenguajes de programación y de los frameworks y bibliotecas que aplicaré.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlos-Martorell-Developer/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlos-Martorell-Developer/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Carlos-Martorell-Developer/Portfolio#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "tailwindcss": "^4.1.12"
+  }
+}
