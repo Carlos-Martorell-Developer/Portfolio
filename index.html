@@ -71,31 +71,24 @@
     <div class="max-w-72 mx-auto">
         <h2 class="text-3xl font-bold">Projects</h2>
         <ul class="justify-between flex flex-wrap gap-20 ">
-            <li class="bg-[#193C40] rounded-xl h-96 w-72 overflow-hidden shadow-img gap-4 justify-around flex flex-col m-4">
+        <template data-template="project-card">
+            <li class="bg-[#193C40] rounded-xl h-96 w-72 overflow-hidden shadow-img gap- justify-around flex flex-col m-4">
                 <img class="h-1/3 w-full object-cover" src="./src/assets/project1.png" alt="Project 1">
-                <div class="p-4 flex flex-col items-center justify-between h-2/3">
-                <h3 class="font-bold">Press Illustration</h3>
-                <p>Illustration created for a press article about the harms of social media overuse.</p>
-                <p>Tech: Analog, Photoshop, and Procreate</p>
+                <div class="p-4 flex flex-col items-center justify-between h-2/3 gap-2">
+                <h3 class="font-bold"> </h3>
+                <p></p>
+                <p><span class="font-bold">Tech: </span></p>
                 <button class="bg-[#BF4D34] py-2 w-32 my-2 justify-center border-2 border-[#BF4D34] hover:bg-[#193C40] hover:text-[#BF4D34] hover:text-shadow-buttonCard rounded-lg transition-all hover:shadow-buttonCard duration-300">
-                    <a href="#" target="_blank" class="">View Project</a>
+                    <a href="#" target="_blank">View Project</a>
                 </button>
                 </div>
             </li>
-            <li class="bg-[#193C40] rounded-xl h-96 w-72 overflow-hidden shadow-img gap-4 justify-around flex flex-col m-4">
-                <img class="h-full w-full object-cover" src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/work-in-progress-design-template-6cc0b86afbb81d0528f26113e3ec02cf_screen.jpg?ts=1698307882" alt="Project 1">
-                <div class="p-4 flex flex-col items-center justify-between h-2/3">
-                <h3 class="font-bold">Coming soon</h3>
-            
-                <button class="bg-[#BF4D34] py-2 w-32 my-2 justify-center border-2 border-[#BF4D34] hover:bg-[#193C40] hover:text-[#BF4D34] hover:text-shadow-buttonCard rounded-lg transition-all hover:shadow-buttonCard duration-300">
-                    <a href="#" target="_blank" class="">Don't click me</a>
-                </button>
-                </div>
-            </li>
-            
+        </template>
+        
         </ul>
     </div>  
 </section>
     <script src="./src/scripts/navigation.js"></script>
+    <script type="module" src="./src/scripts/templates.js"></script>
 </body>
 </html>
