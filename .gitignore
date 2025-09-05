@@ -1,2 +1,4 @@
 node_modules
 package-lock.json
+# Ignorar archivos de Tailwind que se generan
+src/output.css
