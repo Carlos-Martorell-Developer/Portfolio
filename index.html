@@ -13,9 +13,9 @@
 @Verde-3-hex: #214001;
 @Verde-4-hex: #F29472;
 @Verde-5-hex: #BF4D34;-->
-<body class="bg-[#2E5902]">
-    <header id="header" class="bg-[#193C40] sticky top-0 shadow-md">
-        <nav class="h-16 flex items-center shadow-sm  sm:px-24 justify-between sm:max-w-screen-sm lg:max-w-screen-lg">
+<body class="bg-[#2E5902] text-white">  
+    <header id="header" class="bg-[#193C40] sticky top-0 shadow-2xl">
+        <nav class="h-16 flex items-center shadow-sm  sm:px-24 justify-between sm:max-w-screen-sm lg:max-w-screen-lg z-50">
             <button class="absolute left-2 sm:hidden" id="menu-button">
             <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M4 6H20M4 12H20M4 18H20" stroke="#F29472" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -38,11 +38,11 @@
         </nav>
     </header>
     <section >
-        <article id="hero" class=" flex flex-wrap lg:flex max-w-72 mx-auto my-10 items-center justify-between sm:max-w-screen-lg">
+        <article id="hero" class=" flex flex-wrap lg:flex max-w-72 mx-auto py-16 gap-4 items-center justify-between sm:max-w-screen-lg">
             <img class="max-w-72 mx-auto rounded-3xl" src="./src/assets/IMG_3154 2.jpg" alt="Hero Image" >
             <div class="mx-auto text-center my-4 ">
-                <h1 class="text-5xl font-bold text-white">Welcome to My Portfolio</h1>
-                <p class="mt-4 text-lg text-white max-w-xl">I'm Carlos Martorell, a passionate developer specializing in creating dynamic and responsive web applications. Explore my projects and skills below!</p>
+                <h1 class="text-5xl font-bold ">Welcome to My Portfolio</h1>
+                <p class="mt-4 text-lg  max-w-xl">I'm Carlos Martorell, a passionate developer specializing in creating dynamic and responsive web applications. Explore my projects and skills below!</p>
                 <ul class="flex justify-center mt-6 space-x-4">
                     <li>
                         <a href="https://www.linkedin.com/in/carlos-martorell-otal-71b0536a/" target="_blank" class="mt-4 px-6 py-2">
@@ -59,7 +59,14 @@
         </article>
     </section>
 
-
+    <section id="about" class="bg-[#193C40]">
+        <article class="flex flex-col max-w-72 mx-auto py-16 gap-4 sm:max-w-screen-sm lg:max-w-screen-lg ">
+            <h2 class="text-3xl font-bold">About Me</h2>
+            <p>My name is Carlos Martorell, and I'm a web developer passionate about transforming ideas into digital solutions. My professional journey began in the world of <span class="font-bold">chemical engineering</span>, where I cultivated an analytical mindset and a rigorous attention to detail. This background gave me a solid foundation for solving complex problems and taught me how to optimize processes—skills I now apply directly to every line of code I write.</p>
+            <p>Just over a year ago, I decided to follow my true calling into a field that combines my logical and creative sides: web development. It was a natural transition that allowed me to explore my curiosity and learn how to build both functional and visually appealing interfaces. Since then, I've been focused on mastering core frontend technologies, such as <span class="font-bold">HTML, CSS, and JavaScript</span>, and deepening my knowledge with modern frameworks like <span class="font-bold">Angular</span> and utilities like <span class="font-bold">Tailwind CSS</span>.</p>
+            <p>I'm currently looking for an opportunity to apply my skills in a professional environment, where I can continue to grow and collaborate on challenging projects. I'm convinced that my unique approach, which combines an engineering mindset with a passion for design and innovation, not only allows me to create efficient solutions but also to truly understand and respond to the real needs of users.</p>
+        </article>
+    </section>
     <script src="./src/scripts/navigation.js"></script>
 </body>
 </html>
